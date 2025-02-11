@@ -310,7 +310,7 @@ footer .questions {
 
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px ) {
 
     .footer {
         display: grid;
@@ -329,4 +329,179 @@ footer .questions {
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+@media screen and (max-width: 390px){
+    .main input
+{
+    
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #535352;
+    color: white;
+    max-width: 45%;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 4px;
+    font-size:15px;
+    border-radius: 4px;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(2) {
+
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+}
+
+
+
+@media screen and (max-width: 430px){
+    .main input
+{
+    
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #535352;
+    color: white;
+    max-width: 45%;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 4px;
+    font-size:15px;
+    border-radius: 4px;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(2) {
+
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 28px;
+    max-width: 70vw;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 15px;
+
+}
+
+
 }
